@@ -1,3 +1,5 @@
+alert("Seja Bem-Vindo!")
+
 const slides = document.querySelectorAll('.slide');
 let currentSlide = 0;
 
@@ -19,7 +21,25 @@ function nextSlide() {
 
 function startSlideshow() {
   showSlide(currentSlide);
-  setInterval(nextSlide, 1000); 
+  setInterval(nextSlide, 2000); 
 }
 
 startSlideshow();
+
+
+function showDateTime() {
+    const dateTimeElement = document.getElementById('date-time');
+    const options = {
+        day: '2-digit',
+        month: '2-digit',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+    };
+    const dateTime = new Date().toLocaleString('pt-BR', options).replace(',', ' -');
+    dateTimeElement.textContent = dateTime;
+  }
+  
+  showDateTime(); // Chamada inicial da função para exibir a data e hora
+  
+  setInterval(showDateTime, 1000); // Chamada repetida da função a cada segundo

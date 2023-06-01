@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,18 +7,26 @@
     font-family: 'Poppins', sans-serif;
 }
   
+html{
+    height: 100%;
+}
+
 body {
     background: url("../img/home-page.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
   
 .wrapper {
+    background: rgba(39, 39, 39, 0.4);
+    min-height: 100%;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(39, 39, 39, 0.4);
 }
   
 .nav{
@@ -62,6 +72,20 @@ body {
     font-weight: 500;
     background: rgba(255, 255, 255, 0.2);
     margin-left: 15px;
+}
+
+.nav-button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#date-time {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 85px;
+    position: relative;
+    top: 4px;
 }
   
 section {
@@ -142,7 +166,8 @@ section {
     justify-content: center;
     align-items: center;
     background: rgba(39, 39, 39, 0.4);
-    margin-bottom: 100px;
+    padding: 50px 50px 100px 50px;
+    flex-grow: 1;
 }
   
 .slide {
@@ -150,4 +175,8 @@ section {
     width: 30%;
     border-radius: 20px;
 }
+
+ .slideshow img{
+    width: 40%;
+ }
   
