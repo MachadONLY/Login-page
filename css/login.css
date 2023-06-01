@@ -6,7 +6,7 @@
 }
 
 body{
-    background: url("img/farmer.jpg");
+    background: url("../img/farmer.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -50,16 +50,16 @@ body{
     margin: 0 25px;
 }
 
-.link:hover, .active{
-    border-bottom: 2px solid #fff;
-    
-}
 
 form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   position: relative;
+   align-items: center;
+   justify-content: center;
+   width: 512px;
+   height: 420px;
+   overflow: hidden;
+   z-index: 2;
+   color: #fff
 }
   
 label {
