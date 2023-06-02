@@ -28,18 +28,42 @@ startSlideshow();
 
 
 function showDateTime() {
-    const dateTimeElement = document.getElementById('date-time');
-    const options = {
-        day: '2-digit',
-        month: '2-digit',
-        year: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-    };
-    const dateTime = new Date().toLocaleString('pt-BR', options).replace(',', ' -');
-    dateTimeElement.textContent = dateTime;
+  const dateTimeElement = document.getElementById('date-time');
+  const options = {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+  };
+  const dateTime = new Date().toLocaleString('pt-BR', options).replace(',', ' -');
+  dateTimeElement.textContent = dateTime;
+}
+  
+showDateTime(); // Chamada inicial da função para exibir a data e hora
+  
+setInterval(showDateTime, 1000); // Chamada repetida da função a cada segundo
+
+const loginButton = document.getElementById('loginbtn');
+
+
+if (localStorage.getItem('isLoggedIn') === 'true') {
+  loginButton.textContent = 'Sign Out';
+  loginButton.parentNode.href = 'login.html';
+} else {
+  loginButton.textContent = 'Sign In';
+  loginButton.parentNode.href = 'login.html';
+}
+
+
+loginButton.addEventListener('click', function(event) {
+  if(loginButton.textContent == 'Sign Out'){
+    localStorage.removeItem('isLoggedIn');
+    loginButton.textContent = 'Sign In';
+    event.preventDefault();
   }
-  
-  showDateTime(); // Chamada inicial da função para exibir a data e hora
-  
-  setInterval(showDateTime, 1000); // Chamada repetida da função a cada segundo
+})
+
+
+
+

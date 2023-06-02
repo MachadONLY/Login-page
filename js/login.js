@@ -4,7 +4,6 @@ const passwordInput = document.getElementById('password');
 const loginButton = document.getElementById('login-button');
 
 if (localStorage.getItem('isLoggedIn') === 'true') {
-  //localStorage.removeItem('isLoggedIn');
   window.location.href = 'https://www.unicef.org/brazil/comunicados-de-imprensa/relatorio-da-onu-numeros-globais-de-fome-subiram-para-cerca-de-828-milhoes-em-2021';
 }
 
