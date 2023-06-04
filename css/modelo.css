@@ -66,7 +66,14 @@ section{
 
 
 .post-box{
-    background-color: #bcbc55;
+    background-color:#64bb5c;
+    box-shadow: 0 px 14px;
+    padding: 15px;
+    border-radius: 0.5rem;
+}
+
+.post-box-2{
+    background-color:#fff;
     box-shadow: 0 px 14px;
     padding: 15px;
     border-radius: 0.5rem;
@@ -87,10 +94,24 @@ section{
     color: #fff;
 }
 
+.category-2{
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #133917;
+}
+
 .post-title{
     font-size: 1.3rem;
     font-weight: 600;
     color: #fff;
+    overflow: hidden;
+}
+
+.post-title-2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #133917;
     overflow: hidden;
 }
 
@@ -102,3 +123,10 @@ section{
     color: #fff;
 }
 
+.post-description-2{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin: 5px 0 10px;
+    overflow: hidden;
+    color: #133917;
+}
