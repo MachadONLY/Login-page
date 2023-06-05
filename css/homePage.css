@@ -12,7 +12,7 @@ html{
 }
 
 body {
-    background: url("../img/home-page.jpg");
+    background: url("../img/home-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
