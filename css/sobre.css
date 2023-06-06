@@ -16,8 +16,9 @@ body{
     min-height: 110vh;
     background: rgba(39, 39, 39, 0.4);
 }
+
 .nav{
-    position: fixed;
+    position: absolute;
     top: 0;
     display: flex;
     justify-content: space-around;
@@ -27,17 +28,21 @@ body{
     background: linear-gradient(rgba(39,39,39, 0.6), transparent);
     z-index: 100;
 }
+
 .nav-logo p{
     color: white;
     font-size: 25px;
     font-weight: 600;
 }
+
 .nav-menu ul{
     display: flex;
 }
+
 .nav-menu ul li{
     list-style-type: none;
 }
+
 .nav-menu ul li .link{
     text-decoration: none;
     font-weight: 500;
@@ -128,7 +133,7 @@ body{
     line-height: 1.5;
     color: #f2f2f2;
     text-align: justify;
-    margin-left: 15px;
+    margin-left: 55px;
 
 }
 

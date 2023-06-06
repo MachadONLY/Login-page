@@ -15,8 +15,7 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    }
-
+}
 
 .wrapper{
     display: flex;
@@ -25,6 +24,7 @@ body{
     min-height: 110vh;
     background: rgba(39, 39, 39, 0.4);
 }
+
 .nav{
     position: fixed;
     top: 0;
@@ -36,17 +36,21 @@ body{
     background: linear-gradient(rgba(39,39,39, 0.6), transparent);
     z-index: 100;
 }
+
 .nav-logo p{
     color: white;
     font-size: 25px;
     font-weight: 600;
 }
+
 .nav-menu ul{
     display: flex;
 }
+
 .nav-menu ul li{
     list-style-type: none;
 }
+
 .nav-menu ul li .link{
     text-decoration: none;
     font-weight: 500;
@@ -67,7 +71,7 @@ h1 {
 }
 
 form{
-    max-width: 400px;
+    width: 600px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -98,7 +102,7 @@ label{
 small {
     display: block;
     color: #888;
-    margin: 3px 0px 20px 0px;
+    margin: 3px 0px 20px 3px;
 }
 
 #message{
@@ -110,7 +114,7 @@ small {
 }
 
 .button{
-    width: 75%;
+    width: 85%;
     min-height: 40px;
     background-color: #4caf50;
     color: #fff;
