@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    scroll-padding-top: 2rem;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
@@ -113,7 +111,7 @@ small {
     border: 1px solid #ccc;
 }
 
-.button{
+.but{
     width: 85%;
     min-height: 40px;
     background-color: #4caf50;
@@ -135,17 +133,6 @@ small {
     position: relative;
     top: 15px;
     margin-left: 26px;
-}
-
-.alert {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #f44336;
-    color: #fff;
-}
-
-.alert.hidden {
-    display: none;
 }
 
 
