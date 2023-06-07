@@ -98,10 +98,6 @@ body{
     border-radius: 30px;
     filter: brightness(80%);
     transition: all 3s cubic-bezier(.495,.05,.55,.95);
-<<<<<<< HEAD
-=======
-    will-change: filter;
->>>>>>> dc165d05c34b59f8c143bb20cff3ea011a7cd290
 }
 
 .conteudo h5{
@@ -126,9 +122,9 @@ body{
 i .truck{
     position: absolute;
     width: 115px;
-    height: 85px;
+    height: 90px;
     left: 30px;
-    top: 95px;
+    top: 105px;
 }
 
 i .idea{
