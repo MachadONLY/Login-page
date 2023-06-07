@@ -98,6 +98,11 @@ body{
     border-radius: 30px;
     filter: brightness(80%);
     transition: all 3s cubic-bezier(.495,.05,.55,.95);
+<<<<<<< HEAD
+=======
+    will-change: filter;
+
+>>>>>>> c4a1dcc751ef8b4c3c2f6a8c0bb0f15de0e432a1
 }
 
 .conteudo h5{
@@ -141,6 +146,7 @@ i .idea{
     left: 15px;
     bottom: 40px;
     letter-spacing: 1px;
+    width: 90%;
 }
 
 
