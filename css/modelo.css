@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -99,6 +98,10 @@ body{
     border-radius: 30px;
     filter: brightness(80%);
     transition: all 3s cubic-bezier(.495,.05,.55,.95);
+<<<<<<< HEAD
+=======
+    will-change: filter;
+>>>>>>> dc165d05c34b59f8c143bb20cff3ea011a7cd290
 }
 
 .conteudo h5{

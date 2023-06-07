@@ -4,24 +4,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=], initial-scale=1.0">
-  <title>Contato</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/contato.css">
   <script src="./js/contato.js" defer></script>
+  <title>Contato - GreenField</title>
 </head>
 <body>
   <div class="wrapper">
     <nav class="nav">
-        <div class="nav-logo">
-            <p>GreenField</p>
-        </div>
-        <div class="nav-menu" id="navMenu">
-            <ul>
-                <li><a href="home-page.html" class="link">Home</a></li>
-                <li><a href="modelo.html" class="link">Modelo de Negócios</a></li>
-                <li><a href="sobre.html" class="link">Sobre</a></li>
-                <li><a href="contato.html" class="link active">Contato</a></li>
-            </ul>
-        </div>
+      <div class="nav-logo">
+        <p>GreenField</p>
+      </div>
+      <div class="nav-menu">
+        <ul>
+          <li><a href="home-page.html" class="link">Home</a></li>
+          <li><a href="modelo.html" class="link">Modelo de Negócios</a></li>
+          <li><a href="sobre.html" class="link">Sobre</a></li>
+          <li><a href="contato.html" class="link active">Contato</a></li>
+          <li><a href="recursos.html" class="link">Recursos</a></li>
+        </ul>
+      </div>
     </nav>
 
     <div class="content">
@@ -40,9 +43,12 @@
         <label for="message">Mensagem:</label>
         <textarea id="message" name="message" placeholder="Digite sua mensagem" class="inp"></textarea>
 
-        <button type="submit" class="button">Enviar</button>
+        <button type="submit" class="but" id="button">Enviar</button>
         <button type="button" id="dark" class="darkButton"></button>
       </form>
     </div>
+  </div>
 </body>
 </html>
+
+
